@@ -1,0 +1,6 @@
+framework module Pods_staj2Tests {
+  umbrella header "Pods-staj2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
