@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>182779126380-hen731t31q96c4u1bdpbj3asfgqf1cja.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.182779126380-hen731t31q96c4u1bdpbj3asfgqf1cja</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBOpA1HKakNWmWnv3HDmt_h6f_af7iIHGE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>182779126380</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>enesnkendirci.staj2</string>
+	<key>PROJECT_ID</key>
+	<string>staj-ardiunotoios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>staj-ardiunotoios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:182779126380:ios:c9d691391accf106ff6e49</string>
+	<key>DATABASE_URL</key>
+	<string>https://staj-ardiunotoios-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>
