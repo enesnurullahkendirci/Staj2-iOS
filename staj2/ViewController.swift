@@ -48,10 +48,7 @@ class ViewController: UIViewController {
                     print("else")
                     return
                 }
-                for (key, _) in value{
-                    self.keyArray.append(key)
-                    print(key)
-                }
+                self.keyArray = Array(value.keys).sorted(by: <)
                 
                 
                 let parent = self.keyArray.last!
