@@ -16,29 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rolling" translatesAutoresizingMaskIntoConstraints="NO" id="M4i-se-3bP">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pj3-5G-V7u">
-                                <rect key="frame" x="106" y="142" width="221" height="76"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="vmi-Rq-soc"/>
-                                </constraints>
+                                <rect key="frame" x="96" y="152" width="222" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rolling" translatesAutoresizingMaskIntoConstraints="NO" id="M4i-se-3bP">
+                                <rect key="frame" x="47" y="328" width="320" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="90I-p8-Zmj"/>
+                                    <constraint firstAttribute="height" constant="240" id="Eq8-K4-PXG"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M4i-se-3bP" secondAttribute="bottom" constant="350" id="0NG-dH-eiT"/>
-                            <constraint firstItem="Pj3-5G-V7u" firstAttribute="trailing" secondItem="M4i-se-3bP" secondAttribute="trailing" id="2s3-AD-7tt"/>
-                            <constraint firstItem="M4i-se-3bP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="HSa-eX-ogd"/>
-                            <constraint firstItem="M4i-se-3bP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NeQ-A2-dp8"/>
-                            <constraint firstItem="Pj3-5G-V7u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="98" id="abJ-QV-Fke"/>
-                            <constraint firstItem="M4i-se-3bP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cIf-g1-KIw"/>
-                            <constraint firstItem="Pj3-5G-V7u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="p4K-4i-eql"/>
+                            <constraint firstItem="Pj3-5G-V7u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="OTt-Db-Nxe"/>
+                            <constraint firstItem="Pj3-5G-V7u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="S3L-4o-ybS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pj3-5G-V7u" secondAttribute="trailing" constant="96" id="bWd-zP-rev"/>
+                            <constraint firstItem="M4i-se-3bP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hqO-4k-dNC"/>
+                            <constraint firstItem="M4i-se-3bP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zCd-qS-RhK"/>
                         </constraints>
                     </view>
                     <connections>

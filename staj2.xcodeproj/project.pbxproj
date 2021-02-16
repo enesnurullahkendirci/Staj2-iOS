@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		74052133126275FB949555DC /* Pods_staj2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59FA43A985AE0ED5939DDD5 /* Pods_staj2.framework */; };
+		D620CDF325DC3220004F2CFE /* staj2.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = D620CDF125DC3220004F2CFE /* staj2.mlproj */; };
+		D620CDF425DC3220004F2CFE /* stajmama.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D620CDF225DC3220004F2CFE /* stajmama.mlmodel */; };
+		D620CE0625DC3220004F2CFE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D620CE0525DC3220004F2CFE /* GoogleService-Info.plist */; };
 		D62C3E0625D7F51B00B97E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C3E0525D7F51B00B97E57 /* AppDelegate.swift */; };
 		D62C3E0825D7F51B00B97E57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C3E0725D7F51B00B97E57 /* SceneDelegate.swift */; };
 		D62C3E0A25D7F51B00B97E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C3E0925D7F51B00B97E57 /* ViewController.swift */; };
@@ -16,9 +19,6 @@
 		D62C3E1225D7F51C00B97E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62C3E1025D7F51C00B97E57 /* LaunchScreen.storyboard */; };
 		D62C3E1D25D7F51C00B97E57 /* staj2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C3E1C25D7F51C00B97E57 /* staj2Tests.swift */; };
 		D62C3E2825D7F51C00B97E57 /* staj2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C3E2725D7F51C00B97E57 /* staj2UITests.swift */; };
-		D661E98525D7FF1C00A1F021 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D661E98425D7FF1C00A1F021 /* GoogleService-Info.plist */; };
-		D661E98625D7FF1C00A1F021 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D661E98425D7FF1C00A1F021 /* GoogleService-Info.plist */; };
-		D661E98725D7FF1C00A1F021 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D661E98425D7FF1C00A1F021 /* GoogleService-Info.plist */; };
 		D960C7684FFC82069C7D53FC /* Pods_staj2_staj2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894FF1CEA742FDBE0C5E3DF /* Pods_staj2_staj2UITests.framework */; };
 		FB81ECAB1CF5150B00AD9471 /* Pods_staj2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC4A877309319B5E58E19D6 /* Pods_staj2Tests.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +48,9 @@
 		AD11ACABA057878D239981FE /* Pods-staj2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-staj2Tests.debug.xcconfig"; path = "Target Support Files/Pods-staj2Tests/Pods-staj2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C211DAFBF0A61CC631EBAAC0 /* Pods-staj2-staj2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-staj2-staj2UITests.debug.xcconfig"; path = "Target Support Files/Pods-staj2-staj2UITests/Pods-staj2-staj2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C59FA43A985AE0ED5939DDD5 /* Pods_staj2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_staj2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D620CDF125DC3220004F2CFE /* staj2.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = staj2.mlproj; path = ../../../../Desktop/staj2.mlproj; sourceTree = "<group>"; };
+		D620CDF225DC3220004F2CFE /* stajmama.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = stajmama.mlmodel; path = ../../../../Desktop/stajmama.mlmodel; sourceTree = "<group>"; };
+		D620CE0525DC3220004F2CFE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D62C3E0225D7F51B00B97E57 /* staj2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = staj2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62C3E0525D7F51B00B97E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D62C3E0725D7F51B00B97E57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +65,6 @@
 		D62C3E2325D7F51C00B97E57 /* staj2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = staj2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62C3E2725D7F51C00B97E57 /* staj2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staj2UITests.swift; sourceTree = "<group>"; };
 		D62C3E2925D7F51C00B97E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D661E98425D7FF1C00A1F021 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D8B9A35DE6E7AA766588A90E /* Pods-staj2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-staj2Tests.release.xcconfig"; path = "Target Support Files/Pods-staj2Tests/Pods-staj2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FF388862C369F6B97F91ABA2 /* Pods-staj2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-staj2.debug.xcconfig"; path = "Target Support Files/Pods-staj2/Pods-staj2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,13 +145,15 @@
 		D62C3E0425D7F51B00B97E57 /* staj2 */ = {
 			isa = PBXGroup;
 			children = (
+				D620CDF125DC3220004F2CFE /* staj2.mlproj */,
+				D620CDF225DC3220004F2CFE /* stajmama.mlmodel */,
 				D62C3E0525D7F51B00B97E57 /* AppDelegate.swift */,
 				D62C3E0725D7F51B00B97E57 /* SceneDelegate.swift */,
+				D620CE0525DC3220004F2CFE /* GoogleService-Info.plist */,
 				D62C3E0925D7F51B00B97E57 /* ViewController.swift */,
 				D62C3E0B25D7F51B00B97E57 /* Main.storyboard */,
 				D62C3E0E25D7F51C00B97E57 /* Assets.xcassets */,
 				D62C3E1025D7F51C00B97E57 /* LaunchScreen.storyboard */,
-				D661E98425D7FF1C00A1F021 /* GoogleService-Info.plist */,
 				D62C3E1325D7F51C00B97E57 /* Info.plist */,
 			);
 			path = staj2;
@@ -281,8 +285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D620CDF325DC3220004F2CFE /* staj2.mlproj in Resources */,
 				D62C3E1225D7F51C00B97E57 /* LaunchScreen.storyboard in Resources */,
-				D661E98525D7FF1C00A1F021 /* GoogleService-Info.plist in Resources */,
+				D620CE0625DC3220004F2CFE /* GoogleService-Info.plist in Resources */,
 				D62C3E0F25D7F51C00B97E57 /* Assets.xcassets in Resources */,
 				D62C3E0D25D7F51B00B97E57 /* Main.storyboard in Resources */,
 			);
@@ -292,7 +297,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D661E98625D7FF1C00A1F021 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +304,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D661E98725D7FF1C00A1F021 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +419,7 @@
 			files = (
 				D62C3E0A25D7F51B00B97E57 /* ViewController.swift in Sources */,
 				D62C3E0625D7F51B00B97E57 /* AppDelegate.swift in Sources */,
+				D620CDF425DC3220004F2CFE /* stajmama.mlmodel in Sources */,
 				D62C3E0825D7F51B00B97E57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
